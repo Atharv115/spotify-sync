@@ -6,10 +6,10 @@ services:
     startCommand: "python server.py"
     envVars:
       - key: SPOTIPY_CLIENT_ID
-        value: your_client_id
+        value: dc938ee48795463db7b69a9f43b45151
       - key: SPOTIPY_CLIENT_SECRET
-        value: your_client_secret
+        value: 85582b3b7cab4b1ab66893943abe5675
       - key: SPOTIPY_REDIRECT_URI
-        value: your_redirect_uri
+        value: http://localhost:3000/callback
       - key: DISCORD_WEBHOOK_URL
-        value: your_discord_webhook
+        value: https://discord.com/api/webhooks/1358495998460301462/g3-CTARYGsrjpMVhACvciqTBbSO2WGf-VERIRclOJGfdqGXHc2praTIRxaNp_tYukwXV
